@@ -50,11 +50,13 @@ Add a number before any command to multiply it
 
 `Ctrl-R` Redo
 
-`y` Yank (Copy)
+`y` Yank (Copy) e.g. `y2j` is yank everything from this line down to the one on line 2 below (i.e. actually 3 lines)
 
 `yw` Yank one word
 
-`yy` Yank whole line
+`yy` Yank whole line e.g. `2yy` is yank two lines
+
+`y}` Yank to end of this closure
 
 ### Changing text
 
