@@ -28,13 +28,15 @@ Add a number before any command to multiply it
 
 `$` Go to end of line
 
-`Ctrl-G` Go to specific line number
-
 `20G` Go to start of line 20
 
 `gg` Go to top line of file
 
 `G` Go to bottom line of file
+
+`zz` Vertically centre current cursor
+
+`f` Move to a particular letter in a line, e.g. `ft`
 
 # Actions
 
@@ -74,9 +76,11 @@ Add a number before any command to multiply it
 
 `de` Delete from cursor to end of word
 
-`d$` Delete to end of line, or, if on an opening brace, the brace body
+`D` Delete to end of the line
 
 `dd` Delete whole line, e.g. `2dd` will delete current line and one below
+
+`cc` Delete whole line and go into `insert` mode
 
 ### Searching text
 
